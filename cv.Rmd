@@ -10,9 +10,9 @@ library(fontawesome)
 ```
 
 <div class="neat-icons">
-<p> `r fa(name = "location-dot")` Berkeley, CA, United States | Ribeirão Preto, SP, Brazil</p>
+<p> `r fa(name = "location-dot")` Ribeirão Preto, SP, Brazil</p>
 
-<p> `r fa(name = "phone")` +1 510 423-2246</p>
+<p> `r fa(name = "phone")`+55 16 99184-7365</p>
 
 <p> `r fa(name = "envelope")` [viana.guilherme\@proton.me](mailto:guiviana@proton.me){.email}</p>
 
@@ -27,7 +27,7 @@ library(fontawesome)
 
 ## Summary
 
-I am an engaged and motivated doctoral candidate with more than 8 years of experience in research who thrives in interdisciplinary teams. I'm expected to defend my thesis at the latest in February 2025, and I'm looking forward to getting more experience as a scientist in the private sector after graduating.
+I am an engaged and motivated doctoral candidate with more than 8 years of experience in research. I'm expected to defend my thesis at the latest in February 2025, and I'm looking forward to getting more experience as a scientist in the private sector after graduating.
 
 I have extensive wet-lab experience in standard Molecular Biology and Microbiology techniques (media preparation, nucleic acid purification, polymerase chain reaction, restriction cloning, Gibson assembly, microplate assays, flow cytometry, and shake-flask culturing of bacteria) and sequencing (especially Nanopore sequencing).
 
@@ -45,7 +45,7 @@ Listed below are the main objectives and achievements of the projects I have dev
 
 #### Improving biofuel production from lignocellulosic biomass in *Pseudomonas putida*
 
-At JBEI I have been working with the tolerization of *P. putida* against growth inhibitors present in lignocellulosic biomass for improved biofuel production. Utilizing a custom-tailored deep-well plate protocol, I have been able to isolate 5 tolerized strains with **enhanced growth and biofuel production metrics** in mock hydrolysate culture media when compared to their parental strain. Results deriving from this work are being compiled in a manuscript to be submitted for publication later this year.
+At JBEI I have been working with the tolerization of *P. putida* against growth inhibitors present in lignocellulosic biomass for improved biofuel production. Utilizing a custom-tailored deep-well plate protocol, I have been able to isolate 5 tolerized strains with **enhanced growth and biofuel production metrics** in mock hydrolysate culture media when compared to their parental strain. In the course of this project I have extensively worked with the generation, analysis and reporting of proteomics and genomics data, as well as the screening and phenotypical characterization of microbial isolates. Results deriving from this work are being compiled in a manuscript to be submitted for publication later this year.
 
 ### Graduate Student
 

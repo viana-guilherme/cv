@@ -27,7 +27,7 @@ library(fontawesome)
 
 ## Summary
 
-I am an engaged and motivated doctoral candidate with more than 8 years of experience in research. I'm expected to defend my thesis at the latest in February 2025, and I'm looking forward to getting more experience as a scientist in the private sector after graduating.
+I am an engaged and motivated doctoral candidate with more than 8 years of hands-on experience in research. I'm expected to defend my thesis at the latest in February 2025, and I'm looking forward to getting more experience as a scientist in the private sector after graduating.
 
 I have extensive wet-lab experience in standard Molecular Biology and Microbiology techniques (media preparation, nucleic acid purification, polymerase chain reaction, restriction cloning, Gibson assembly, microplate assays, flow cytometry, and shake-flask culturing of bacteria) and sequencing (especially Nanopore sequencing).
 

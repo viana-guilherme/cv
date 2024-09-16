@@ -10,17 +10,21 @@ library(fontawesome)
 ```
 
 <div class="neat-icons">
-<p> `r fa(name = "location-dot")` Ribeirão Preto, SP, Brazil</p>
 
-<p> `r fa(name = "phone")`+55 16 99184-7365</p>
+<p>`r fa(name = "location-dot")` Ribeirão Preto, SP, Brazil</p>
 
-<p> `r fa(name = "envelope")` [viana.guilherme\@proton.me](mailto:guiviana@proton.me){.email}</p>
+<p>`r fa(name = "phone")`+55 16 99184-7365</p>
 
-<p> `r fa(name = "graduation-cap")` [Google Scholar](https://scholar.google.com.br/citations?user=m-KrmPEAAAAJ&hl=en>Scholar)</p>
+<p>`r fa(name = "envelope")` [viana.guilherme\@proton.me](mailto:guiviana@proton.me){.email}</p>
 
-<p> `r fa(name = "github")` [Github](https://github.com/viana-guilherme)</p>
+<p>`r fa(name = "graduation-cap")` [Google Scholar](https://scholar.google.com.br/citations?user=m-KrmPEAAAAJ&hl=en%3EScholar)</p>
 
-<p> `r fa(name = "linkedin")` [Linkedin](https://www.linkedin.com/in/guilheviana/)
+<p>`r fa(name = "github")` [Github](https://github.com/viana-guilherme)</p>
+
+<p>
+
+`r fa(name = "linkedin")` [Linkedin](https://www.linkedin.com/in/guilheviana/)
+
 </div>
 
 <hr class="pretty-hr">
@@ -32,6 +36,14 @@ I am an engaged and motivated doctoral candidate with more than 8 years of hands
 I have extensive wet-lab experience in standard Molecular Biology and Microbiology techniques (media preparation, nucleic acid purification, polymerase chain reaction, restriction cloning, Gibson assembly, microplate assays, flow cytometry, and shake-flask culturing of bacteria) and sequencing (especially Nanopore sequencing).
 
 I am also proficient in several frameworks and computational pipelines for the analysis of different types of biological data (including genomic, transcriptomic and proteomic datasets) using R (Tidyverse packages, DESeq2, vegan, dada2 and flowCore), Python (Biopython, numpy, pandas and matplotlib) and bash (general scripting and CLI Bioinformatics tools such as the SRA Toolkit, Trimmomatic, Kallisto, RSEM, Minimap2 and Guppy).
+
+## Education
+
+|                                                                                                                |      Year      |
+|:---------------------------------------------------|:------------------:|
+| <subtle>University of São Paulo, Ribeirão Preto - São Paulo, Brazil</subtle> <br> **PhD in Molecular Biology** | 2020 - current |
+| <subtle>University of São Paulo, Ribeirão Preto - São Paulo, Brazil</subtle> <br> **MSc. in Biochemistry**     |  2018 - 2020   |
+| <subtle>University of Brasília, Brasília - Distrito Federal, Brazil</subtle> <br> **BSc. in Biotechnology**    |  2014 - 2017   |
 
 ## Experience
 
@@ -45,7 +57,7 @@ Listed below are the main objectives and achievements of the projects I have dev
 
 #### Improving biofuel production from lignocellulosic biomass in *Pseudomonas putida*
 
-At JBEI I have been working with the tolerization of *P. putida* against growth inhibitors present in lignocellulosic biomass for improved biofuel production. Utilizing a custom-tailored deep-well plate protocol, I have been able to isolate 5 tolerized strains with **enhanced growth and biofuel production metrics** in mock hydrolysate culture media when compared to their parental strain. In the course of this project I have extensively worked with the generation, analysis and reporting of proteomics and genomics data, as well as the screening and phenotypical characterization of microbial isolates. Results deriving from this work are being compiled in a manuscript to be submitted for publication later this year.
+At JBEI I have been working with the tolerization of *P. putida* against growth inhibitors present in lignocellulosic biomass for improved biofuel production. Utilizing an adaptive laboratory evolution approach, I have been able to isolate tolerized strains with **enhanced growth and biofuel production metrics** in mock hydrolysate culture media when compared to their parental strain. In the course of this project I have extensively worked with the generation, analysis and reporting of proteomics and genomics data, as well as the screening and phenotypical characterization of microbial isolates. Results deriving from this work are being compiled in a manuscript to be submitted for publication later this year.
 
 ### Graduate Student
 
@@ -55,13 +67,13 @@ At JBEI I have been working with the tolerization of *P. putida* against growth 
 
 In my ongoing PhD project, we intend to develop and characterize new tools for engineering *Pseudomonas putida* as a host suitable for bioproduction. Our approach to this project is multi-layered, and comprises several smaller objectives:
 
--   I have designed the **pVANT** family of vectors, which are based on the Standard European Vector Architecture (SEVA). pVANT reporter vectors have been cloned in 6 different species of bacteria, including laboratory strains and environmental isolates, and exhibit **improved fluorescence when compared to their SEVA counterparts** while retaining all of the advantages of the European standard such as modularity, small size and broad host range applicability. Part of this work has been published in ACS Synthetic Biology in 2023 (10.1021/acssynbio.3c00098).
+-   I have designed the **pVANT** family of vectors, which are based on the Standard European Vector Architecture (SEVA). pVANT reporter vectors have been cloned in 6 different species of bacteria, including laboratory strains and environmental isolates, and exhibit **improved fluorescence when compared to their SEVA counterparts** while retaining all of the advantages of the European standard such as modularity, small size and broad host range applicability. Part of this work has been published in ACS Synthetic Biology in 2023.
 
 -   I have analyzed publicly-available raw RNAseq data from NCBI's GEO repository to compile a database of Pseudomonas transcriptomic data in over a dozen conditions. This database, has been used a starting point to search for new biological parts under stress conditions. We've so far identified eight putative **novel stress-responsive promoters** and three novel **tolerance-promoting proteins**, which are being characterized by our group.
 
 #### Expanding acid resistance in bacteria using synthetic circuits
 
-While obtaining my Masters degree, I led a project in which we designed synthetic operons, aiming to build an **optimized gene cluster that conferred *Escherichia coli* the ability to thrive in low pH**. I constructed a library of 27 acid resistance clusters (ARCs) and characterized the resulting strains regarding survival and growth under extreme acidic conditions. This work was published in ACS Synthetic Biology (10.1021/acssynbio.0c00089) and earned a [research highlight](https://www.nature.com/articles/s41589-020-0580-3) in Nature Chemical Biology in 2020.
+While obtaining my Masters degree, I led a project in which we designed synthetic operons, aiming to build an **optimized gene cluster that conferred *Escherichia coli* the ability to thrive in low pH**. I constructed a library of 27 acid resistance clusters (ARCs) and characterized the resulting strains regarding survival and growth under extreme acidic conditions. This work was published in ACS Synthetic Biology in 2020.
 
 ### Other projects
 
@@ -73,33 +85,27 @@ Since 2020, I have been actively learning and contributing to projects using Nan
 
 I recently started working on the development of my first proper R package, mipreadr, a suite of functions for importing and processing microplate reader data into R for downstream analyses. While still under development, this tool is already being employed internally in our lab to generate robust and reproducible analyses of microbial growth and fluorescence assays, simplifying complex scripting. More information about mipreadr can be found in its [GitHub repository](https://github.com/viana-guilherme/mipreadr).
 
-## Education
-
-|                                                                                                                |      Year      |
-|:-----------------------------------------------------|:----------------:|
-| <subtle>University of São Paulo, Ribeirão Preto - São Paulo, Brazil</subtle> <br> **PhD in Molecular Biology** | 2020 - current |
-| <subtle>University of São Paulo, Ribeirão Preto - São Paulo, Brazil</subtle> <br> **MSc. in Biochemistry**     |  2018 - 2020   |
-| <subtle>University of Brasília, Brasília - Distrito Federal, Brazil</subtle> <br> **BSc. in Biotechnology**    |  2014 - 2017   |
-
 ## Publications
 
--   **de Siqueira, Guilherme Marcelino Viana** and María-Eugenia Guazzaroni. 'Host-Dependent Improvement of GFP Expression in Pseudomonas Putida KT2440 Using Terminators of Metagenomic Origin'. ACS Synthetic Biology 12, no. 5 (19 May 2023): 1562--66. <https://doi.org/10.1021/acssynbio.3c00098>.
+-   **de Siqueira, Guilherme Marcelino Viana** and María-Eugenia Guazzaroni. 'Host-Dependent Improvement of GFP Expression in Pseudomonas Putida KT2440 Using Terminators of Metagenomic Origin'. ACS Synthetic Biology 12, no. 5 (May 2023): 1562--66. <https://doi.org/10.1021/acssynbio.3c00098>.
 
 -   Mancilio, Lucca Bonjy Kikuti, Guilherme Augusto Ribeiro, Erica Janaina Rodrigues de Almeida, **Guilherme Marcelino Viana de Siqueira**, Rafael Silva Rocha, María-Eugenia Guazzaroni, Adalgisa Rodrigues De Andrade, and Valeria Reginatto. 'Adding Value to Lignocellulosic Byproducts by Using Acetate and P-Coumaric Acid as Substrate in a Microbial Fuel Cell'. Industrial Crops and Products 171 (November 2021): 113844. <https://doi.org/10.1016/j.indcrop.2021.113844>.
 
--   **de Siqueira, Guilherme Marcelino Viana**, Felipe Marcelo Pereira-dos-Santos, Rafael Silva-Rocha, and Maria-Eugenia Guazzaroni. 'Nanopore Sequencing Provides Rapid and Reliable Insight into Microbial Profiles of Intensive Care Units'. Preprint. Microbiology, 14 May 2021. <https://doi.org/10.1101/2021.05.14.444165>.
+-   **de Siqueira, Guilherme Marcelino Viana**, Felipe Marcelo Pereira-dos-Santos, Rafael Silva-Rocha, and Maria-Eugenia Guazzaroni. 'Nanopore Sequencing Provides Rapid and Reliable Insight into Microbial Profiles of Intensive Care Units'. Frontiers in Public Health 26 (August 2021). <https://doi.org/10.3389/fpubh.2021.710985>.
 
--   Mancílio, Lucca Bonjy Kikuti, Guilherme Augusto Ribeiro, Erica Mendes Lopes, Luciano Takeshi Kishi, Leonardo Martins-Santana, **Guilherme Marcelino Viana de Siqueira**, Adalgisa Rodrigues Andrade, María-Eugenia Guazzaroni, and Valeria Reginatto. 'Unusual Microbial Community and Impact of Iron and Sulfate on Microbial Fuel Cell Ecology and Performance'. Current Research in Biotechnology 2 (November 2020): 64--73. <https://doi.org/10.1016/j.crbiot.2020.04.001>.
+-   Mancílio, Lucca Bonjy Kikuti, Guilherme Augusto Ribeiro, Erica Mendes Lopes, Luciano Takeshi Kishi, Leonardo Martins-Santana, **Guilherme Marcelino Viana de Siqueira**, Adalgisa Rodrigues Andrade, María-Eugenia Guazzaroni, and Valeria Reginatto. 'Unusual Microbial Community and Impact of Iron and Sulfate on Microbial Fuel Cell Ecology and Performance'. Current Research in Biotechnology 2 (November 2020). <https://doi.org/10.1016/j.crbiot.2020.04.001>.
 
--   **de Siqueira, Guilherme Marcelino Viana**, Rafael Silva-Rocha, and María-Eugenia Guazzaroni. 'Turning the Screw: Engineering Extreme PH Resistance in Escherichia Coli through Combinatorial Synthetic Operons'. ACS Synthetic Biology 9, no. 6 (19 June 2020): 1254--62. <https://doi.org/10.1021/acssynbio.0c00089>.
+-   **de Siqueira, Guilherme Marcelino Viana**, Rafael Silva-Rocha, and María-Eugenia Guazzaroni. 'Turning the Screw: Engineering Extreme PH Resistance in *Escherichia coli* through Combinatorial Synthetic Operons'. ACS Synthetic Biology 9, no. 6 (June 2020): 1254--62. <https://doi.org/10.1021/acssynbio.0c00089>.
 
 -   Ribeiro, Lucas Ferreira, Vanesa Amarelle, Luana de Fátima Alves, **Guilherme Marcelino Viana de Siqueira**, Gabriel Lencioni Lovate, Tiago Cabral Borelli, and María-Eugenia Guazzaroni. 'Genetically Engineered Proteins to Improve Biomass Conversion: New Advances and Challenges for Tailoring Biocatalysts'. Molecules 24, no. 16 (January 2019): 2879. <https://doi.org/10.3390/molecules24162879>.
 
--   Alves, Luana de Fátima, Cauã Antunes Westmann, Gabriel Lencioni Lovate, **Guilherme Marcelino Viana de Siqueira**, Tiago Cabral Borelli, and María-Eugenia Guazzaroni. 'Metagenomic Approaches for Understanding New Concepts in Microbial Science'. International Journal of Genomics 2018 (23 August 2018): 1--15. <https://doi.org/10.1155/2018/2312987>.
+-   Alves, Luana de Fátima, Cauã Antunes Westmann, Gabriel Lencioni Lovate, **Guilherme Marcelino Viana de Siqueira**, Tiago Cabral Borelli, and María-Eugenia Guazzaroni. 'Metagenomic Approaches for Understanding New Concepts in Microbial Science'. International Journal of Genomics (August 2018) <https://doi.org/10.1155/2018/2312987>.
 
 ## Grants and awards
 
 **2023** - Research Internship Abroad (BEPE) fellowship awarded by the The São Paulo Research Foundation (FAPESP)
+
+**2020** - [Research highlight](https://www.nature.com/articles/s41589-020-0580-3) in Nature Chemical Biology about pur oublished paper *'Turning the Screw: Engineering Extreme PH Resistance in* Escherichia coli *through Combinatorial Synthetic Operons'*
 
 **2019** - "Best poster" category award in the III National Meeting of Biotechnological and Agroindustrial Chemistry. EnqBiotec. Brazil.
 

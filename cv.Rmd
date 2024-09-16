@@ -40,7 +40,7 @@ I am also proficient in several frameworks and computational pipelines for the a
 ## Education
 
 |                                                                                                                |      Year      |
-|:---------------------------------------------------|:------------------:|
+|:---------------------------------------------------------------------------------------------------------------|:--------------:|
 | <subtle>University of São Paulo, Ribeirão Preto - São Paulo, Brazil</subtle> <br> **PhD in Molecular Biology** | 2020 - current |
 | <subtle>University of São Paulo, Ribeirão Preto - São Paulo, Brazil</subtle> <br> **MSc. in Biochemistry**     |  2018 - 2020   |
 | <subtle>University of Brasília, Brasília - Distrito Federal, Brazil</subtle> <br> **BSc. in Biotechnology**    |  2014 - 2017   |

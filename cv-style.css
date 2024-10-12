@@ -15,9 +15,15 @@ subtle {
   color: #595959;
 }
 
-.neat-icons > p {
-  margin-right: 10px;
-  margin-bottom: 0px;
+.neat-icons > div {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+div > p > span {
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .table-condensed {
@@ -41,15 +47,15 @@ h1 {
   font-weight: 500;
   font-size: 20pt !important;
   text-align: center;
-  margin-bottom: 4%;
+  margin-bottom: 2%;
 }
 
 h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600 !important;
   font-size: 18pt;
-  margin-bottom: 2%;
-  margin-top: 2.5%;
+  margin-bottom: 1%;
+  margin-top: 4%;
 }
 
 h3 {
@@ -57,7 +63,7 @@ h3 {
   font-weight: 600;
   font-size: 14pt;
   font-style: italic;
-  padding: 15px 0px 0px 0px;
+  padding: 8px 0px 0px 0px;
 }
 
 h4 {
@@ -68,5 +74,9 @@ h4 {
 }
 
 .pretty-hr {
-  border-top: 2px solid #0f7c91;
+  border-top: 2.5px solid #0f7c91;
+}
+
+hr {
+  margin-top: 0px; !important
 }

@@ -461,9 +461,15 @@ font-weight: 300;
 font-size: 10pt;
 color: #595959;
 }
-.neat-icons > p {
-margin-right: 10px;
-margin-bottom: 0px;
+.neat-icons > div {
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+}
+div > p > span {
+padding-right: 10px;
+padding-left: 10px;
 }
 .table-condensed {
 width: 90%;
@@ -484,21 +490,21 @@ font-family: "Montserrat", sans-serif;
 font-weight: 500;
 font-size: 20pt !important;
 text-align: center;
-margin-bottom: 4%;
+margin-bottom: 2%;
 }
 h2 {
 font-family: "Montserrat", sans-serif;
 font-weight: 600 !important;
 font-size: 18pt;
-margin-bottom: 2%;
-margin-top: 2.5%;
+margin-bottom: 1%;
+margin-top: 4%;
 }
 h3 {
 font-family: "Montserrat", sans-serif;
 font-weight: 600;
 font-size: 14pt;
 font-style: italic;
-padding: 15px 0px 0px 0px;
+padding: 8px 0px 0px 0px;
 }
 h4 {
 font-family: "Montserrat", sans-serif;
@@ -507,7 +513,10 @@ font-size: 12pt;
 padding: 5px 0px 0px 0px;
 }
 .pretty-hr {
-border-top: 2px solid #0f7c91;
+border-top: 2.5px solid #0f7c91;
+}
+hr {
+margin-top: 0px; !important
 }
 </style>
 
@@ -612,41 +621,33 @@ display: none;
 
 
 <div class="neat-icons">
-
-<p>
-<svg aria-hidden="true" role="img" viewBox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" /></svg>
-Ribeirão Preto, SP, Brazil
-</p>
-<p>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" /></svg>+55
-16 99184-7365
-</p>
-<p>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" /></svg>
-<a href="mailto:guiviana@proton.me" class="email">viana.guilherme@proton.me</a>
-</p>
-<p>
-<svg aria-hidden="true" role="img" viewBox="0 0 640 512" style="height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M320 32c-8.1 0-16.1 1.4-23.7 4.1L15.8 137.4C6.3 140.9 0 149.9 0 160s6.3 19.1 15.8 22.6l57.9 20.9C57.3 229.3 48 259.8 48 291.9v28.1c0 28.4-10.8 57.7-22.3 80.8c-6.5 13-13.9 25.8-22.5 37.6C0 442.7-.9 448.3 .9 453.4s6 8.9 11.2 10.2l64 16c4.2 1.1 8.7 .3 12.4-2s6.3-6.1 7.1-10.4c8.6-42.8 4.3-81.2-2.1-108.7C90.3 344.3 86 329.8 80 316.5V291.9c0-30.2 10.2-58.7 27.9-81.5c12.9-15.5 29.6-28 49.2-35.7l157-61.7c8.2-3.2 17.5 .8 20.7 9s-.8 17.5-9 20.7l-157 61.7c-12.4 4.9-23.3 12.4-32.2 21.6l159.6 57.6c7.6 2.7 15.6 4.1 23.7 4.1s16.1-1.4 23.7-4.1L624.2 182.6c9.5-3.4 15.8-12.5 15.8-22.6s-6.3-19.1-15.8-22.6L343.7 36.1C336.1 33.4 328.1 32 320 32zM128 408c0 35.3 86 72 192 72s192-36.7 192-72L496.7 262.6 354.5 314c-11.1 4-22.8 6-34.5 6s-23.5-2-34.5-6L143.3 262.6 128 408z" /></svg>
+<div>
+<p><span><svg aria-hidden="true" role="img" viewBox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" /></svg>
+Ribeirão Preto, SP, Brazil</span>
+<span><svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" /></svg>
++55 16
+99184-7365</span><span><svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" /></svg>
+<a href="mailto:gmvsiqueira@gmail.com" class="email">gmvsiqueira@gmail.com</a></span></p>
+</div>
+<div>
+<p><span><svg aria-hidden="true" role="img" viewBox="0 0 640 512" style="height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M320 32c-8.1 0-16.1 1.4-23.7 4.1L15.8 137.4C6.3 140.9 0 149.9 0 160s6.3 19.1 15.8 22.6l57.9 20.9C57.3 229.3 48 259.8 48 291.9v28.1c0 28.4-10.8 57.7-22.3 80.8c-6.5 13-13.9 25.8-22.5 37.6C0 442.7-.9 448.3 .9 453.4s6 8.9 11.2 10.2l64 16c4.2 1.1 8.7 .3 12.4-2s6.3-6.1 7.1-10.4c8.6-42.8 4.3-81.2-2.1-108.7C90.3 344.3 86 329.8 80 316.5V291.9c0-30.2 10.2-58.7 27.9-81.5c12.9-15.5 29.6-28 49.2-35.7l157-61.7c8.2-3.2 17.5 .8 20.7 9s-.8 17.5-9 20.7l-157 61.7c-12.4 4.9-23.3 12.4-32.2 21.6l159.6 57.6c7.6 2.7 15.6 4.1 23.7 4.1s16.1-1.4 23.7-4.1L624.2 182.6c9.5-3.4 15.8-12.5 15.8-22.6s-6.3-19.1-15.8-22.6L343.7 36.1C336.1 33.4 328.1 32 320 32zM128 408c0 35.3 86 72 192 72s192-36.7 192-72L496.7 262.6 354.5 314c-11.1 4-22.8 6-34.5 6s-23.5-2-34.5-6L143.3 262.6 128 408z" /></svg>
 <a href="https://scholar.google.com.br/citations?user=m-KrmPEAAAAJ&amp;hl=en%3EScholar">Google
-Scholar</a>
-</p>
-<p>
-<svg aria-hidden="true" role="img" viewBox="0 0 496 512" style="height:1em;width:0.97em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" /></svg>
-<a href="https://github.com/viana-guilherme">Github</a>
-</p>
-<p>
-<p><svg aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" /></svg>
-<a href="https://www.linkedin.com/in/guilheviana/">Linkedin</a></p>
+Scholar</a></span><span><svg aria-hidden="true" role="img" viewBox="0 0 496 512" style="height:1em;width:0.97em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" /></svg>
+<a href="https://github.com/viana-guilherme">Github</a></span><span><svg aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" /></svg>
+<a href="https://www.linkedin.com/in/guilheviana/">Linkedin</a>
+</span></p>
+</div>
 </div>
 <hr class="pretty-hr">
 <div id="summary" class="section level2">
 <h2>Summary</h2>
-<p>I am an engaged and motivated doctoral candidate with more than 8
-years of hands-on experience in research. I’m expected to defend my
-thesis at the latest in February 2025, and I’m looking forward to
-getting more experience as a scientist in the private sector after
-graduating.</p>
-<p>I have extensive wet-lab experience in standard Molecular Biology and
+<p>I am a motivated doctoral candidate with over eight years of hands-on
+experience in research. I expect to defend my thesis by February 2025
+and look forward to further developing my skills and gaining experience
+as a bioinformatician and data scientist after graduation.</p>
+<div id="key-skills-techniques" class="section level3">
+<h3>Key skills &amp; techniques</h3>
+<p>I have extensive wet lab experience in standard Molecular Biology and
 Microbiology techniques (media preparation, nucleic acid purification,
 polymerase chain reaction, restriction cloning, Gibson assembly,
 microplate assays, flow cytometry, and shake-flask culturing of
@@ -654,22 +655,24 @@ bacteria) and sequencing (especially Nanopore sequencing).</p>
 <p>I am also proficient in several frameworks and computational
 pipelines for the analysis of different types of biological data
 (including genomic, transcriptomic and proteomic datasets) using R
-(Tidyverse packages, DESeq2, vegan, dada2 and flowCore), Python
-(Biopython, numpy, pandas and matplotlib) and bash (general scripting
-and CLI Bioinformatics tools such as the SRA Toolkit, Trimmomatic,
-Kallisto, RSEM, Minimap2 and Guppy).</p>
+(Tidyverse packages, Bioconductor packages, DESeq2, vegan, dada2 and
+flowCore), Python (Biopython, numpy, pandas and matplotlib) git and bash
+(general scripting). I have used several CLI Bioinformatics tools such
+as the SRA Toolkit, Trimmomatic, Kallisto, RSEM, Minimap2 and
+Guppy).</p>
+</div>
 </div>
 <div id="education" class="section level2">
 <h2>Education</h2>
 <table>
 <colgroup>
-<col width="80%" />
-<col width="19%" />
+<col width="60%" />
+<col width="40%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th align="left"></th>
-<th align="center">Year</th>
+<th align="right">Year</th>
 </tr>
 </thead>
 <tbody>
@@ -677,50 +680,44 @@ Kallisto, RSEM, Minimap2 and Guppy).</p>
 <td align="left"><subtle>University of São Paulo, Ribeirão Preto - São
 Paulo, Brazil</subtle> <br> <strong>PhD in Molecular
 Biology</strong></td>
-<td align="center">2020 - current</td>
+<td align="right">2020 - current</td>
 </tr>
 <tr class="even">
 <td align="left"><subtle>University of São Paulo, Ribeirão Preto - São
 Paulo, Brazil</subtle> <br> <strong>MSc. in Biochemistry</strong></td>
-<td align="center">2018 - 2020</td>
+<td align="right">2018 - 2020</td>
 </tr>
 <tr class="odd">
 <td align="left"><subtle>University of Brasília, Brasília - Distrito
 Federal, Brazil</subtle> <br> <strong>BSc. in
 Biotechnology</strong></td>
-<td align="center">2014 - 2017</td>
+<td align="right">2014 - 2017</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="right"></td>
 </tr>
 </tbody>
 </table>
 </div>
 <div id="experience" class="section level2">
 <h2>Experience</h2>
-<p>As a graduate student, I have been working with leveraging the stress
-response of industrially-relevant organisms for the bioproduction of
-chemicals. This included devising genetic parts for improving host
-fitness under stress and expanding the limited toolbox for reliable
-genetic manipulation of non-conventional microbial hosts.</p>
-<p>Listed below are the main objectives and achievements of the projects
-I have developed during this period:</p>
 <div id="research-associate" class="section level3">
 <h3>Research Associate</h3>
 <p><subtle>Lawrence Berkeley National Laboratory | Joint BioEnergy
-Institute (JBEI) (Feb 2023 - May 2024)</subtle></p>
+Institute (JBEI) (2023 - 2024)</subtle></p>
 <div id="improving-biofuel-production-from-lignocellulosic-biomass-in-pseudomonas-putida" class="section level4">
 <h4>Improving biofuel production from lignocellulosic biomass in
 <em>Pseudomonas putida</em></h4>
-<p>At JBEI I have worked with the tolerization of industrial bacterium
-<em>P. putida</em> against growth inhibitors present in lignocellulosic
-biomass for improved biofuel production. Utilizing an adaptive
-laboratory evolution approach, I have been able to isolate tolerized
+<p>I collaborated with Dr. Aindrila Mukhopadhyay during an internship at
+JBEI (Emeryville, CA, US) to develop tolerized <em>P. putida</em>
 strains with <strong>enhanced growth and biofuel production
-metrics</strong> in mock hydrolysate culture media when compared to
-their parental strain. In the course of this project I have extensively
-worked with the generation, analysis and reporting of proteomics and
-genomics data, as well as the screening and phenotypical
-characterization of microbial isolates. Results deriving from this work
-are being compiled in a manuscript to be submitted for publication later
-this year.</p>
+metrics</strong> in mock hydrolysate culture media. In the course of
+this project I have extensively worked with the generation, analysis and
+reporting of proteomics and genomics data, as well as the screening and
+phenotypical characterization of microbial isolates. Results deriving
+from this work are being compiled in a manuscript to be submitted for
+publication later this year.</p>
 </div>
 </div>
 <div id="graduate-student" class="section level3">
@@ -729,69 +726,45 @@ this year.</p>
 <div id="searching-for-new-molecular-tools-to-enhance-pseudomonas-putida-robustness-to-abiotic-stresses" class="section level4">
 <h4>Searching for new molecular tools to enhance <em>Pseudomonas
 putida</em> robustness to abiotic stresses</h4>
-<p>In my ongoing PhD project, we intend to develop and characterize new
-tools for engineering <em>Pseudomonas putida</em> as a host suitable for
-bioproduction. Our approach to this project is multi-layered, and
-comprises several smaller objectives:</p>
+<p>In my PhD project, we intend to develop and characterize new tools
+for better manipulating <em>P. putida</em> as a host for bioproduction.
+Our approach to this project comprises several objectives:</p>
 <ul>
-<li><p>I have designed the <strong>pVANT</strong> family of vectors,
-which are based on the Standard European Vector Architecture (SEVA).
-pVANT reporter vectors have been cloned in 6 different species of
-bacteria, including laboratory strains and environmental isolates, and
-exhibit <strong>improved fluorescence when compared to their SEVA
-counterparts</strong> while retaining all of the advantages of the
-European standard such as modularity, small size and broad host range
-applicability. Part of this work has been published in ACS Synthetic
-Biology in 2023.</p></li>
-<li><p>I have analyzed publicly-available raw RNAseq data from NCBI’s
-GEO repository to compile a database of Pseudomonas transcriptomic data
-in over a dozen conditions. This database, has been used a starting
-point to search for new biological parts under stress conditions. We’ve
-so far identified eight putative <strong>novel stress-responsive
-promoters</strong> and three novel <strong>tolerance-promoting
-proteins</strong>, which are being characterized by our group.</p></li>
+<li><p>I have <strong>designed and validated the pVANT family of
+vectors</strong>, based on the Standard European Vector Architecture
+(SEVA). pVANT reporter vectors have been cloned in different species of
+environmental bacteria, exhibiting improved fluorescence when compared
+to their SEVA counterparts while retaining modularity, small size and
+broad host range applicability. This work has been published in ACS
+Synthetic Biology in 2023.</p></li>
+<li><p>I compiled a transcriptomic database from publicly available
+RNA-seq data, identifying <strong>novel stress-responsive promoters and
+tolerance-promoting proteins</strong> currently under further
+characterization in our group.</p></li>
 </ul>
 </div>
 <div id="expanding-acid-resistance-in-bacteria-using-synthetic-circuits" class="section level4">
 <h4>Expanding acid resistance in bacteria using synthetic circuits</h4>
 <p>While obtaining my Masters degree, I led a project in which we
-designed synthetic operons, aiming to build an <strong>optimized gene
-cluster that conferred <em>Escherichia coli</em> the ability to thrive
-in low pH</strong>. I constructed a library of 27 acid resistance
-clusters (ARCs) and characterized the resulting strains regarding
-survival and growth under extreme acidic conditions. This work was
-published in ACS Synthetic Biology in 2020.</p>
+designed synthetic operons, aiming to build optimized gene clusters that
+conferred <em>Escherichia coli</em> the ability to <strong>thrive in low
+pH</strong>. This work was published in ACS Synthetic Biology in
+2020.</p>
 </div>
 </div>
-<div id="other-projects" class="section level3">
-<h3>Other projects</h3>
-<div id="nanopore-sequencing" class="section level4">
-<h4>Nanopore sequencing</h4>
-<p>Since 2020, I have been actively learning and contributing to
-projects using Nanopore sequencing platforms, in particular multiplexed
-microbial community sequencing projects using the SQK-16S024 kit on
-Flongle flowcells. I have experience in library preparation using rapid
-barcoding kits and ligation sequencing kits, as well in the monitoring
-and analysis of sequencing data using custom pipelines and tools such as
-MinKNOW, Guppy, NanoFilt and Minimap2. As a result of these projects I
-have published two papers.</p>
-</div>
-<div id="mipreadr-an-r-package-for-the-analysis-of-microbial-growth-data" class="section level4">
-<h4>mipreadr: An R package for the analysis of microbial growth
-data</h4>
-<p>I recently started working on the development of my first proper R
-package, mipreadr, a suite of functions for importing and processing
-microplate reader data into R for downstream analyses. While still under
-development, this tool is already being employed internally in our lab
-to generate robust and reproducible analyses of microbial growth and
-fluorescence assays, simplifying complex scripting. More information
-about mipreadr can be found in its <a href="https://github.com/viana-guilherme/mipreadr">GitHub
-repository</a>.</p>
+<div id="other-interests" class="section level3">
+<h3>Other interests</h3>
+<p>I am passionate about coding and tools that simplify biological data
+analysis and improve reproducibility. I am currently developing my two
+first R packages: <a href="https://github.com/viana-guilherme/mipreadr">mipreadr</a>, a small
+package for the analysis of microbial growth data from microplate
+readers, and <a href="https://github.com/viana-guilherme/fitnessbrowseR">fitnessbrowseR</a>,
+a package for programmatic retrieval of data from the <a href="https://fit.genomics.lbl.gov/cgi-bin/myFrontPage.cgi">Fitness
+Browser</a> database</p>
 </div>
 </div>
-</div>
-<div id="publications" class="section level2">
-<h2>Publications</h2>
+<div id="peer-reviewed-publications" class="section level2">
+<h2>Peer-reviewed publications</h2>
 <ul>
 <li><p><strong>de Siqueira, Guilherme Marcelino Viana</strong> and
 María-Eugenia Guazzaroni. ‘Host-Dependent Improvement of GFP Expression
@@ -839,14 +812,14 @@ Journal of Genomics (August 2018) <a href="https://doi.org/10.1155/2018/2312987"
 <p><strong>2023</strong> - Research Internship Abroad (BEPE) fellowship
 awarded by the The São Paulo Research Foundation (FAPESP)</p>
 <p><strong>2020</strong> - <a href="https://www.nature.com/articles/s41589-020-0580-3">Research
-highlight</a> in Nature Chemical Biology about pur oublished paper
-<em>’Turning the Screw: Engineering Extreme PH Resistance in</em>
-Escherichia coli <em>through Combinatorial Synthetic Operons’</em></p>
+highlight</a> in Nature Chemical Biology: <em>’Turning the Screw:
+Engineering Extreme pH Resistance in</em> Escherichia coli <em>through
+Combinatorial Synthetic Operons’</em></p>
 <p><strong>2019</strong> - “Best poster” category award in the III
 National Meeting of Biotechnological and Agroindustrial Chemistry.
 EnqBiotec. Brazil.</p>
 <p><strong>2015</strong> - “Young talents for Science” fellowship by the
-brazilian federal funding agency CAPES (Coordenação de Aperfeiçoamento
+Brazilian federal funding agency CAPES (Coordenação de Aperfeiçoamento
 de Pessoal de Nível Superior).</p>
 </div>
 

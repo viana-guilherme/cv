@@ -67,7 +67,7 @@ While obtaining my Masters degree, I led a project in which we designed syntheti
 
 ### Other interests
 
-I am passionate about coding and tools that simplify biological data analysis and improve reproducibility. I am currently developing my two first R packages:  [mipreadr](https://github.com/viana-guilherme/mipreadr), a small package for the analysis of microbial growth data from microplate readers, and [fitnessbrowseR](https://github.com/viana-guilherme/fitnessbrowseR), a package for programmatic retrieval of data from the [Fitness Browser](https://fit.genomics.lbl.gov/cgi-bin/myFrontPage.cgi) database
+I am passionate about coding and tools that simplify biological data analysis and improve reproducibility. I am currently developing my two first R packages:  [mipreadr](https://github.com/viana-guilherme/mipreadr), a package for the analysis of microbial growth data from microplate readers, and [fitnessbrowseR](https://github.com/viana-guilherme/fitnessbrowseR), a package for programmatic retrieval of data from the [Fitness Browser](https://fit.genomics.lbl.gov/cgi-bin/myFrontPage.cgi) database
 
 ## Peer-reviewed publications
 
@@ -87,7 +87,7 @@ I am passionate about coding and tools that simplify biological data analysis an
 
 ## Grants and awards
 
-**2023** - Research Internship Abroad (BEPE) fellowship awarded by the The São Paulo Research Foundation (FAPESP)
+**2023** - Research Internship Abroad (BEPE) fellowship awarded by the São Paulo Research Foundation (FAPESP)
 
 **2020** - [Research highlight](https://www.nature.com/articles/s41589-020-0580-3) in Nature Chemical Biology: *'Turning the Screw: Engineering Extreme pH Resistance in* Escherichia coli *through Combinatorial Synthetic Operons'*
 

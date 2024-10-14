@@ -15,19 +15,23 @@ subtle {
   color: #595959;
 }
 
-.neat-icons > div {
+.personal-info {
   display: flex;
+  flex-direction: column;
   text-align: center;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
+
+
 div > p > span {
   padding-right: 10px;
   padding-left: 10px;
 }
 
 .table-condensed {
-  width: 90%;
+  width: 95%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -79,4 +83,59 @@ h4 {
 
 hr {
   margin-top: 0px; !important
+}
+
+@media (max-width: 700px) {
+  h1 {
+      font-size: 16pt !important;
+      margin-bottom: 3%;;
+  }
+
+  .neat-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around !important;
+    align-items: center;
+    flex-wrap: wrap;
+
+  }
+  .personal-info {
+    display: flex;
+    flex-direction: row; !important
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .personal-info span {
+    display: block;
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 400px) {
+
+  h1 {
+    font-size: 14pt !important;
+    margin-bottom: 5%;;
+  }
+
+  .neat-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between !important;
+    align-items: center;
+    flex-wrap: wrap;
+
+  }
+  .personal-info {
+    display: flex;
+    flex-direction: row; !important
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .personal-info span {
+    display: block;
+    margin-bottom: 5px;
+  }
 }

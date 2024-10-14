@@ -461,18 +461,20 @@ font-weight: 300;
 font-size: 10pt;
 color: #595959;
 }
-.neat-icons > div {
+.personal-info {
 display: flex;
+flex-direction: column;
 text-align: center;
 align-items: center;
 justify-content: center;
+flex-wrap: wrap;
 }
 div > p > span {
 padding-right: 10px;
 padding-left: 10px;
 }
 .table-condensed {
-width: 90%;
+width: 95%;
 margin-left: auto;
 margin-right: auto;
 }
@@ -517,6 +519,52 @@ border-top: 2.5px solid #0f7c91;
 }
 hr {
 margin-top: 0px; !important
+}
+@media (max-width: 700px) {
+h1 {
+font-size: 16pt !important;
+margin-bottom: 3%;;
+}
+.neat-icons {
+display: flex;
+flex-direction: row;
+justify-content: space-around !important;
+align-items: center;
+flex-wrap: wrap;
+}
+.personal-info {
+display: flex;
+flex-direction: row; !important
+text-align: left;
+align-items: flex-start;
+}
+.personal-info span {
+display: block;
+margin-bottom: 5px;
+}
+}
+@media (max-width: 480px) {
+h1 {
+font-size: 14pt !important;
+margin-bottom: 5%;;
+}
+.neat-icons {
+display: flex;
+flex-direction: row;
+justify-content: space-between !important;
+align-items: center;
+flex-wrap: wrap;
+}
+.personal-info {
+display: flex;
+flex-direction: row; !important
+text-align: left;
+align-items: flex-start;
+}
+.personal-info span {
+display: block;
+margin-bottom: 5px;
+}
 }
 </style>
 
@@ -621,44 +669,46 @@ display: none;
 
 
 <div class="neat-icons">
-<div>
+<div class="personal-info">
 <p><span><svg aria-hidden="true" role="img" viewBox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" /></svg>
 Ribeirão Preto, SP, Brazil</span>
 <span><svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" /></svg>
-+55 16
-99184-7365</span><span><svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" /></svg>
++55 16 99184-7365</span>
+<span><svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" /></svg>
 <a href="mailto:gmvsiqueira@gmail.com" class="email">gmvsiqueira@gmail.com</a></span></p>
 </div>
-<div>
+<div class="personal-info">
 <p><span><svg aria-hidden="true" role="img" viewBox="0 0 640 512" style="height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M320 32c-8.1 0-16.1 1.4-23.7 4.1L15.8 137.4C6.3 140.9 0 149.9 0 160s6.3 19.1 15.8 22.6l57.9 20.9C57.3 229.3 48 259.8 48 291.9v28.1c0 28.4-10.8 57.7-22.3 80.8c-6.5 13-13.9 25.8-22.5 37.6C0 442.7-.9 448.3 .9 453.4s6 8.9 11.2 10.2l64 16c4.2 1.1 8.7 .3 12.4-2s6.3-6.1 7.1-10.4c8.6-42.8 4.3-81.2-2.1-108.7C90.3 344.3 86 329.8 80 316.5V291.9c0-30.2 10.2-58.7 27.9-81.5c12.9-15.5 29.6-28 49.2-35.7l157-61.7c8.2-3.2 17.5 .8 20.7 9s-.8 17.5-9 20.7l-157 61.7c-12.4 4.9-23.3 12.4-32.2 21.6l159.6 57.6c7.6 2.7 15.6 4.1 23.7 4.1s16.1-1.4 23.7-4.1L624.2 182.6c9.5-3.4 15.8-12.5 15.8-22.6s-6.3-19.1-15.8-22.6L343.7 36.1C336.1 33.4 328.1 32 320 32zM128 408c0 35.3 86 72 192 72s192-36.7 192-72L496.7 262.6 354.5 314c-11.1 4-22.8 6-34.5 6s-23.5-2-34.5-6L143.3 262.6 128 408z" /></svg>
 <a href="https://scholar.google.com.br/citations?user=m-KrmPEAAAAJ&amp;hl=en%3EScholar">Google
-Scholar</a></span><span><svg aria-hidden="true" role="img" viewBox="0 0 496 512" style="height:1em;width:0.97em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" /></svg>
-<a href="https://github.com/viana-guilherme">Github</a></span><span><svg aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" /></svg>
-<a href="https://www.linkedin.com/in/guilheviana/">Linkedin</a>
-</span></p>
+Scholar</a></span>
+<span><svg aria-hidden="true" role="img" viewBox="0 0 496 512" style="height:1em;width:0.97em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" /></svg>
+<a href="https://github.com/viana-guilherme">Github</a></span>
+<span><svg aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" /></svg>
+<a href="https://www.linkedin.com/in/guilheviana/">Linkedin</a></span></p>
 </div>
 </div>
 <hr class="pretty-hr">
 <div id="summary" class="section level2">
 <h2>Summary</h2>
-<p>I am a motivated doctoral candidate with over eight years of hands-on
-experience in research. I expect to defend my thesis by February 2025
-and look forward to further developing my skills and gaining experience
-as a bioinformatician and data scientist after graduation.</p>
+<p>I am a motivated doctoral candidate with more than eight years of
+hands-on experience in research. I expect to defend my thesis by
+February 2025 and am eager to continue developing my skills and gaining
+experience as a bioinformatician and data scientist after
+graduation.</p>
 <div id="key-skills-techniques" class="section level3">
 <h3>Key skills &amp; techniques</h3>
-<p>I have extensive wet lab experience in standard Molecular Biology and
-Microbiology techniques (including media preparation, nucleic acid
-purification, polymerase chain reaction, restriction cloning, Gibson
+<p>I have extensive <strong>wet lab experience</strong> in standard
+Molecular Biology and Microbiology techniques (including media
+preparation, nucleic acid purification, PCR, restriction cloning, Gibson
 assembly, microplate assays, flow cytometry, and shake-flask culturing
 of bacteria) and sequencing (especially Nanopore sequencing).</p>
-<p>I am proficient in several frameworks and computational tools for the
-analysis of biological data (including genomic, transcriptomic and
-proteomic datasets) using R (Tidyverse packages, Bioconductor packages,
-DESeq2, vegan, dada2 and flowCore). I also have experience in git,
-Python (Biopython, numpy, pandas and matplotlib), bash (general
-scripting) and several CLI Bioinformatics tools such as the SRA Toolkit,
-Trimmomatic, Kallisto, RSEM, Minimap2 and Guppy.</p>
+<p>I am <strong>proficient in several frameworks and computational
+tools</strong> for the analysis of biological data (including genomic,
+transcriptomic, and proteomic datasets) using R (Tidyverse packages,
+Bioconductor packages, DESeq2, vegan, dada2 and flowCore). I also have
+experience in Git, Python (Biopython, NumPy, Pandas, and Matplotlib),
+bash (general scripting) and several CLI Bioinformatics tools such as
+the SRA Toolkit, Trimmomatic, Kallisto, RSEM, Minimap2 and Guppy.</p>
 </div>
 </div>
 <div id="education" class="section level2">
@@ -676,20 +726,21 @@ Trimmomatic, Kallisto, RSEM, Minimap2 and Guppy.</p>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><subtle>University of São Paulo, Ribeirão Preto - São
-Paulo, Brazil</subtle> <br> <strong>PhD in Molecular
-Biology</strong></td>
+<td align="left"><subtle><span>University of São Paulo, Ribeirão Preto
+</span><span>- São Paulo, Brazil</span></subtle> <br> <strong>PhD in
+Molecular Biology</strong></td>
 <td align="right">2020 - current</td>
 </tr>
 <tr class="even">
-<td align="left"><subtle>University of São Paulo, Ribeirão Preto - São
-Paulo, Brazil</subtle> <br> <strong>MSc. in Biochemistry</strong></td>
+<td align="left"><subtle><span>University of São Paulo, Ribeirão Preto
+</span><span>- São Paulo, Brazil</span></subtle> <br> <strong>MSc. in
+Biochemistry</strong></td>
 <td align="right">2018 - 2020</td>
 </tr>
 <tr class="odd">
-<td align="left"><subtle>University of Brasília, Brasília - Distrito
-Federal, Brazil</subtle> <br> <strong>BSc. in
-Biotechnology</strong></td>
+<td align="left"><subtle><span>University of Brasília, Brasília
+</span><span>- Distrito Federal, Brazil</span></subtle> <br>
+<strong>BSc. in Biotechnology</strong></td>
 <td align="right">2014 - 2017</td>
 </tr>
 <tr class="even">
@@ -711,12 +762,12 @@ Institute (JBEI) (2023 - 2024)</subtle></p>
 <p>I collaborated with Dr. Aindrila Mukhopadhyay at JBEI (Emeryville,
 CA, US) to develop tolerized <em>P. putida</em> strains with
 <strong>enhanced growth and biofuel production metrics</strong> in mock
-hydrolysate culture media. In the course of this project I have
-extensively worked with the generation, analysis and reporting of
-proteomics and genomics data, as well as the screening and phenotypical
-characterization of microbial isolates. Results deriving from this work
-are being compiled in a manuscript to be submitted for publication later
-this year.</p>
+hydrolysate culture media. Throughout this project I have extensively
+worked with the generation, analysis and reporting of proteomics and
+genomics data, as well as the screening and phenotypic characterization
+of microbial isolates. Results deriving from this work are being
+compiled in a manuscript to be submitted for publication later this
+year.</p>
 </div>
 </div>
 <div id="graduate-student" class="section level3">
@@ -727,7 +778,7 @@ this year.</p>
 putida</em> robustness to abiotic stresses</h4>
 <p>In my PhD project, we intend to develop and characterize new tools
 for better manipulating <em>P. putida</em> as a host for bioproduction.
-Our approach to this project comprises several objectives:</p>
+Our approach comprises several objectives:</p>
 <ul>
 <li><p>I have <strong>designed and validated the pVANT family of
 vectors</strong>, based on the Standard European Vector Architecture
@@ -744,22 +795,23 @@ characterization in our group.</p></li>
 </div>
 <div id="expanding-acid-resistance-in-bacteria-using-synthetic-circuits" class="section level4">
 <h4>Expanding acid resistance in bacteria using synthetic circuits</h4>
-<p>While obtaining my Masters degree, I led a project in which we
-designed synthetic operons, aiming to build optimized gene clusters that
-conferred <em>Escherichia coli</em> the ability to <strong>thrive in low
-pH</strong>. This work was published in ACS Synthetic Biology in
-2020.</p>
+<p>During my Master’s degree, I led a project in which we designed
+synthetic operons, aiming to build optimized gene clusters that
+conferred <em>Escherichia coli</em> the ability to <strong>thrive in
+under extremely acidic conditions</strong>. This work was published in
+ACS Synthetic Biology in 2020.</p>
 </div>
 </div>
 <div id="other-interests" class="section level3">
 <h3>Other interests</h3>
-<p>I am passionate about coding and tools that simplify biological data
-analysis and improve reproducibility. I am currently developing my two
-first R packages: <a href="https://github.com/viana-guilherme/mipreadr">mipreadr</a>, a
+<p>I am passionate about data visualization and tools that simplify
+biological data analysis and improve reproducibility. I am currently
+<strong>developing my first two R packages</strong>: <a href="https://github.com/viana-guilherme/mipreadr">mipreadr</a>, a
 package for the analysis of microbial growth data from microplate
 readers, and <a href="https://github.com/viana-guilherme/fitnessbrowseR">fitnessbrowseR</a>,
 a package for programmatic retrieval of data from the <a href="https://fit.genomics.lbl.gov/cgi-bin/myFrontPage.cgi">Fitness
-Browser</a> database.</p>
+Browser</a> database. I also recently began teaching myself JavaScript
+for the development of web apps using React and D3.</p>
 </div>
 </div>
 <div id="peer-reviewed-publications" class="section level2">

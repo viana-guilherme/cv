@@ -26,13 +26,40 @@ library(fontawesome)
 
 ## Summary
 
-I am a motivated doctoral candidate with more than eight years of hands-on experience in research. I expect to defend my thesis by February 2025 and am eager to continue developing my skills and gaining experience as a bioinformatician and data scientist after graduation.
+I am a motivated doctoral candidate with more than eight years of hands-on experience in Molecular Biology, Microbiology, and Bioinformatics. I expect to defend my thesis in the spring of 2025 and am eager to continue developing my skills and gaining experience as a bioinformatician and data scientist after graduation.
 
-### Key skills & techniques
-
-I have extensive wet lab experience in standard Molecular Biology and Microbiology techniques (including media preparation, nucleic acid purification, PCR, restriction cloning, Gibson assembly, microplate assays, flow cytometry, and shake-flask culturing of bacteria) and sequencing (especially Nanopore sequencing).
-
-I am proficient in several frameworks and computational tools for the analysis of biological data (including genomic, transcriptomic, and proteomic datasets) using R (Tidyverse packages, Bioconductor packages, DESeq2, vegan, dada2 and flowCore). I also have experience in Git, Python (Biopython, NumPy, Pandas, and Matplotlib), bash (general scripting) and several CLI Bioinformatics tools such as the SRA Toolkit, Trimmomatic, Kallisto, RSEM, Minimap2 and Guppy.
+#### Key skills & techniques
+<div class="skill-list">
+  <span>Agarose electrophoresis</span>
+  <span>Bacterial transformation</span>
+  <span>Bash scripting</span>
+  <span>Biopython</span>
+  <span>D3.js</span>
+  <span>dada2</span>
+  <span>DESeq2</span>
+  <span>Flow cytometry</span>
+  <span>flowCore</span>
+  <span>Gibson assembly</span>
+  <span>Git</span>
+  <span>Guppy</span>
+  <span>JavaScript</span>
+  <span>Kallisto</span>
+  <span>Matplotlib</span>
+  <span>Minimap2</span>
+  <span>Nucleic acid extraction</span>
+  <span>NumPy</span>
+  <span>Pandas</span>
+  <span>Python</span>
+  <span>PCR</span>
+  <span>Quarto</span>
+  <span>R</span>
+  <span>R Shiny</span>
+  <span>Restriction cloning</span>
+  <span>RSEM</span>
+  <span>Tidyverse</span>
+  <span>Trimmomatic</span>
+  <span>vegan</span>
+</div>
 
 ## Education
 
@@ -44,57 +71,59 @@ I am proficient in several frameworks and computational tools for the analysis o
 |                                                                                                                |                |
 ## Experience
 
-
 ### Research Associate
 
 <subtle>Lawrence Berkeley National Laboratory \| Joint BioEnergy Institute (JBEI) (2023 - 2024)</subtle>
 
-#### Improving biofuel production from lignocellulosic biomass in *Pseudomonas putida*
+#### <span class="highlight">Project: Improving biofuel production from lignocellulosic biomass in *Pseudomonas putida*</span>
 
-I collaborated with Dr. Aindrila Mukhopadhyay at JBEI (Emeryville, CA, US) to develop tolerized _P. putida_ strains with **enhanced growth and biofuel production metrics** in mock hydrolysate culture media. Throughout this project I have extensively worked with the generation, analysis and reporting of proteomics and genomics data, as well as the screening and phenotypic characterization of microbial isolates. Results deriving from this work are being compiled in a manuscript to be submitted for publication later this year.
+I collaborated with Dr. Aindrila Mukhopadhyay at JBEI (Emeryville, CA, US) to develop tolerized _P. putida_ strains with enhanced growth and biofuel production metrics in mock hydrolysate culture media. Results deriving from this work are being compiled in a manuscript to be submitted for publication later this year.
 
 ### Graduate Student
 
 <subtle>University of São Paulo (2018 - ongoing)</subtle>
 
-#### Searching for new molecular tools to enhance *Pseudomonas putida* robustness to abiotic stresses
+#### <span class="highlight">Project: Searching for new molecular tools to enhance *Pseudomonas putida* robustness to abiotic stresses </span>
 
-In my PhD project, we intend to develop and characterize new tools for better manipulating *P. putida* as a host for bioproduction. Our approach comprises several objectives:
+In my PhD project, we intend to develop and characterize new tools for better manipulating *P. putida* as a host for bioproduction. During this project:
 
--   I have **designed and validated the pVANT family of vectors**, based on the Standard European Vector Architecture (SEVA). pVANT reporter vectors have been cloned in different species of environmental bacteria, exhibiting improved fluorescence when compared to their SEVA counterparts while retaining modularity, small size and broad host range applicability. This work has been published in ACS Synthetic Biology in 2023.
+-   I have designed and validated the pVANT family of vectors, based on the Standard European Vector Architecture (SEVA). This work has been published in ACS Synthetic Biology in 2023.
 
--   I compiled a transcriptomic database from publicly available RNA-seq data, identifying **novel stress-responsive promoters and tolerance-promoting proteins** currently under further characterization in our group.
+-   I compiled a transcriptomic database from publicly available RNA-seq data of _P. putida_, identifying novel stress-responsive promoters and tolerance-promoting proteins currently under further characterization in our group.
 
-#### Expanding acid resistance in bacteria using synthetic circuits
+#### <span class="highlight">Project: Expanding acid resistance in bacteria using synthetic circuits</span>
 
-During my Master's degree, I led a project in which we designed synthetic operons, aiming to build optimized gene clusters that conferred *Escherichia coli* the ability to **thrive in under extremely acidic conditions**. This work was published in ACS Synthetic Biology in 2020.
+During my Master's degree, I led a project in which we designed synthetic operons, aiming to build optimized gene clusters that conferred *Escherichia coli* the ability to thrive in under extremely acidic conditions. This work was published in ACS Synthetic Biology in 2020.
 
 ### Other interests
 
-I am passionate about data visualization and tools that simplify biological data analysis and improve reproducibility. I am currently **developing my first two R packages**: [mipreadr](https://github.com/viana-guilherme/mipreadr), a package for the analysis of microbial growth data from microplate readers, and [fitnessbrowseR](https://github.com/viana-guilherme/fitnessbrowseR), a package for programmatic retrieval of data from the [Fitness Browser](https://fit.genomics.lbl.gov/cgi-bin/myFrontPage.cgi) database. I also recently began teaching myself JavaScript for the development of web apps using React and D3.
+I am passionate about data visualization and tools that simplify biological data analysis and improve reproducibility. I am currently developing my first two R packages: [mipreadr](https://github.com/viana-guilherme/mipreadr), a package for the analysis of microbial growth data from microplate readers, and [fitnessbrowseR](https://github.com/viana-guilherme/fitnessbrowseR), a package for programmatic retrieval of data from the [Fitness Browser](https://fit.genomics.lbl.gov/cgi-bin/myFrontPage.cgi) database. I also recently began teaching myself JavaScript for the development of web apps using React and D3.
 
-## Peer-reviewed publications
+## Selected peer-reviewed publications
+<ul>
+<li>**de Siqueira, Guilherme Marcelino Viana** and María-Eugenia Guazzaroni. 'Host-Dependent Improvement of GFP Expression in _Pseudomonas Putida_ KT2440 Using Terminators of Metagenomic Origin'. ACS Synthetic Biology 12, no. 5 (May 2023): 1562--66. <https://doi.org/10.1021/acssynbio.3c00098>.</li>
 
--   **de Siqueira, Guilherme Marcelino Viana** and María-Eugenia Guazzaroni. 'Host-Dependent Improvement of GFP Expression in Pseudomonas Putida KT2440 Using Terminators of Metagenomic Origin'. ACS Synthetic Biology 12, no. 5 (May 2023): 1562--66. <https://doi.org/10.1021/acssynbio.3c00098>.
+<li>Mancilio, Lucca Bonjy Kikuti, Guilherme Augusto Ribeiro, Erica Janaina Rodrigues de Almeida, **Guilherme Marcelino Viana de Siqueira**, Rafael Silva Rocha, María-Eugenia Guazzaroni, Adalgisa Rodrigues De Andrade, and Valeria Reginatto. 'Adding Value to Lignocellulosic Byproducts by Using Acetate and _p_-Coumaric Acid as Substrate in a Microbial Fuel Cell'. Industrial Crops and Products 171 (November 2021): 113844. <https://doi.org/10.1016/j.indcrop.2021.113844>.</li>
 
--   Mancilio, Lucca Bonjy Kikuti, Guilherme Augusto Ribeiro, Erica Janaina Rodrigues de Almeida, **Guilherme Marcelino Viana de Siqueira**, Rafael Silva Rocha, María-Eugenia Guazzaroni, Adalgisa Rodrigues De Andrade, and Valeria Reginatto. 'Adding Value to Lignocellulosic Byproducts by Using Acetate and P-Coumaric Acid as Substrate in a Microbial Fuel Cell'. Industrial Crops and Products 171 (November 2021): 113844. <https://doi.org/10.1016/j.indcrop.2021.113844>.
+<li>**de Siqueira, Guilherme Marcelino Viana**, Felipe Marcelo Pereira-dos-Santos, Rafael Silva-Rocha, and Maria-Eugenia Guazzaroni. 'Nanopore Sequencing Provides Rapid and Reliable Insight into Microbial Profiles of Intensive Care Units'. Frontiers in Public Health 26 (August 2021). <https://doi.org/10.3389/fpubh.2021.710985>.</li>
 
--   **de Siqueira, Guilherme Marcelino Viana**, Felipe Marcelo Pereira-dos-Santos, Rafael Silva-Rocha, and Maria-Eugenia Guazzaroni. 'Nanopore Sequencing Provides Rapid and Reliable Insight into Microbial Profiles of Intensive Care Units'. Frontiers in Public Health 26 (August 2021). <https://doi.org/10.3389/fpubh.2021.710985>.
+<li>Mancílio, Lucca Bonjy Kikuti, Guilherme Augusto Ribeiro, Erica Mendes Lopes, Luciano Takeshi Kishi, Leonardo Martins-Santana, **Guilherme Marcelino Viana de Siqueira**, Adalgisa Rodrigues Andrade, María-Eugenia Guazzaroni, and Valeria Reginatto. 'Unusual Microbial Community and Impact of Iron and Sulfate on Microbial Fuel Cell Ecology and Performance'. Current Research in Biotechnology 2 (November 2020). <https://doi.org/10.1016/j.crbiot.2020.04.001>. </li>
 
--   Mancílio, Lucca Bonjy Kikuti, Guilherme Augusto Ribeiro, Erica Mendes Lopes, Luciano Takeshi Kishi, Leonardo Martins-Santana, **Guilherme Marcelino Viana de Siqueira**, Adalgisa Rodrigues Andrade, María-Eugenia Guazzaroni, and Valeria Reginatto. 'Unusual Microbial Community and Impact of Iron and Sulfate on Microbial Fuel Cell Ecology and Performance'. Current Research in Biotechnology 2 (November 2020). <https://doi.org/10.1016/j.crbiot.2020.04.001>.
-
--   **de Siqueira, Guilherme Marcelino Viana**, Rafael Silva-Rocha, and María-Eugenia Guazzaroni. 'Turning the Screw: Engineering Extreme PH Resistance in *Escherichia coli* through Combinatorial Synthetic Operons'. ACS Synthetic Biology 9, no. 6 (June 2020): 1254--62. <https://doi.org/10.1021/acssynbio.0c00089>.
-
--   Ribeiro, Lucas Ferreira, Vanesa Amarelle, Luana de Fátima Alves, **Guilherme Marcelino Viana de Siqueira**, Gabriel Lencioni Lovate, Tiago Cabral Borelli, and María-Eugenia Guazzaroni. 'Genetically Engineered Proteins to Improve Biomass Conversion: New Advances and Challenges for Tailoring Biocatalysts'. Molecules 24, no. 16 (January 2019): 2879. <https://doi.org/10.3390/molecules24162879>.
-
--   Alves, Luana de Fátima, Cauã Antunes Westmann, Gabriel Lencioni Lovate, **Guilherme Marcelino Viana de Siqueira**, Tiago Cabral Borelli, and María-Eugenia Guazzaroni. 'Metagenomic Approaches for Understanding New Concepts in Microbial Science'. International Journal of Genomics (August 2018) <https://doi.org/10.1155/2018/2312987>.
+<li>**de Siqueira, Guilherme Marcelino Viana**, Rafael Silva-Rocha, and María-Eugenia Guazzaroni. 'Turning the Screw: Engineering Extreme pH Resistance in *Escherichia coli* through Combinatorial Synthetic Operons'. ACS Synthetic Biology 9, no. 6 (June 2020): 1254--62. <https://doi.org/10.1021/acssynbio.0c00089>. </li>
+</ul>
 
 ## Grants and awards
-
-**2023** - Research Internship Abroad (BEPE) fellowship awarded by the São Paulo Research Foundation (FAPESP)
-
-**2020** - [Research highlight](https://www.nature.com/articles/s41589-020-0580-3) in Nature Chemical Biology: *'Turning the Screw: Engineering Extreme pH Resistance in* Escherichia coli *through Combinatorial Synthetic Operons'*
-
-**2019** - "Best poster" category award in the III National Meeting of Biotechnological and Agroindustrial Chemistry. EnqBiotec. Brazil.
-
-**2015** - "Young talents for Science" fellowship by the Brazilian federal funding agency CAPES (Coordenação de Aperfeiçoamento de Pessoal de Nível Superior).
+<div class="awards">
+  <ol start="2023" class="aligned-list">
+    <li>Research Internship Abroad (BEPE) fellowship awarded by the São Paulo Research Foundation (FAPESP)</li>
+  </ol>
+  <ol start="2020" class="aligned-list">
+    <li>[Research highlight](https://www.nature.com/articles/s41589-020-0580-3) in Nature Chemical Biology: *'Turning the Screw: Engineering Extreme pH Resistance in* Escherichia coli *through Combinatorial Synthetic Operons'*</li>
+  </ol>
+  <ol start="2019" class="aligned-list">
+    <li>"Best poster" category award in the III National Meeting of Biotechnological and Agroindustrial Chemistry. EnqBiotec. Brazil.</li>
+  </ol>
+  <ol start="2015" class="aligned-list">
+    <li>"Young talents for Science" fellowship by the Brazilian federal funding agency CAPES (Coordenação de Aperfeiçoamento de Pessoal de Nível Superior).</li>
+  </ol>
+</div>

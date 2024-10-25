@@ -18,7 +18,7 @@ library(fontawesome)
 <div class="personal-info">
   <span>`r fa(name = "graduation-cap")` [Google Scholar](https://scholar.google.com.br/citations?user=m-KrmPEAAAAJ&hl=en%3EScholar)</span>
   <span>`r fa(name = "github")` [Github](https://github.com/viana-guilherme)</span>
-  <span>`r fa(name = "linkedin")` [Linkedin](https://www.linkedin.com/in/guilheviana/)</span>
+  <span>`r fa(name = "linkedin")` [Linkedin](https://www.linkedin.com/in/guilheviana)</span>
 </div>
 </div>
 
@@ -75,7 +75,7 @@ I am a motivated doctoral candidate with more than eight years of hands-on exper
 
 <subtle>Lawrence Berkeley National Laboratory \| Joint BioEnergy Institute (JBEI) (2023 - 2024)</subtle>
 
-#### <span class="highlight">Project: Improving biofuel production from lignocellulosic biomass in *Pseudomonas putida*</span>
+#### <span class="highlight">Project: Improving biofuel production from lignocellulosic biomass in Pseudomonas putida </span>
 
 I collaborated with Dr. Aindrila Mukhopadhyay at JBEI (Emeryville, CA, US) to develop tolerized _P. putida_ strains with enhanced growth and biofuel production metrics in mock hydrolysate culture media. Results deriving from this work are being compiled in a manuscript to be submitted for publication later this year.
 
@@ -83,15 +83,15 @@ I collaborated with Dr. Aindrila Mukhopadhyay at JBEI (Emeryville, CA, US) to de
 
 <subtle>University of São Paulo (2018 - ongoing)</subtle>
 
-#### <span class="highlight">Project: Searching for new molecular tools to enhance *Pseudomonas putida* robustness to abiotic stresses </span>
+#### <span class="highlight">Project: Searching for new molecular tools to enhance P. putida robustness to abiotic stresses </span>
 
-In my PhD project, we intend to develop and characterize new tools for better manipulating *P. putida* as a host for bioproduction. During this project:
+In my PhD project, we intend to develop and characterize new tools for better manipulating _P. putida_ as a host for bioproduction. During this project:
 
 -   I have designed and validated the pVANT family of vectors, based on the Standard European Vector Architecture (SEVA). This work has been published in ACS Synthetic Biology in 2023.
 
 -   I compiled a transcriptomic database from publicly available RNA-seq data of _P. putida_, identifying novel stress-responsive promoters and tolerance-promoting proteins currently under further characterization in our group.
 
-#### <span class="highlight">Project: Expanding acid resistance in bacteria using synthetic circuits</span>
+#### <span class="highlight">Project: Expanding acid resistance in bacteria using synthetic circuits </span>
 
 During my Master's degree, I led a project in which we designed synthetic operons, aiming to build optimized gene clusters that conferred *Escherichia coli* the ability to thrive in under extremely acidic conditions. This work was published in ACS Synthetic Biology in 2020.
 
@@ -99,7 +99,7 @@ During my Master's degree, I led a project in which we designed synthetic operon
 
 I am passionate about data visualization and tools that simplify biological data analysis and improve reproducibility. I am currently developing my first two R packages: [mipreadr](https://github.com/viana-guilherme/mipreadr), a package for the analysis of microbial growth data from microplate readers, and [fitnessbrowseR](https://github.com/viana-guilherme/fitnessbrowseR), a package for programmatic retrieval of data from the [Fitness Browser](https://fit.genomics.lbl.gov/cgi-bin/myFrontPage.cgi) database. I also recently began teaching myself JavaScript for the development of web apps using React and D3.
 
-## Selected peer-reviewed publications
+## Selected publications
 <ul>
 <li>**de Siqueira, Guilherme Marcelino Viana** and María-Eugenia Guazzaroni. 'Host-Dependent Improvement of GFP Expression in _Pseudomonas Putida_ KT2440 Using Terminators of Metagenomic Origin'. ACS Synthetic Biology 12, no. 5 (May 2023): 1562--66. <https://doi.org/10.1021/acssynbio.3c00098>.</li>
 

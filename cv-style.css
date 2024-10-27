@@ -63,6 +63,7 @@ p, li {
 .highlight {
   background-color: #4f969f !important;
   color: white !important;
+  line-height: 1.8em !important;
   padding: 5px 5px 5px 5px;
 }
 

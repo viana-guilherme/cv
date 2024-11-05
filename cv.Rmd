@@ -78,7 +78,7 @@ I am a motivated doctoral candidate with more than eight years of hands-on exper
 
 #### <span class="highlight">Project: Improving biofuel production from lignocellulosic biomass in Pseudomonas putida </span>
 
-During my PhD, I collaborated with Dr. Aindrila Mukhopadhyay at JBEI (Emeryville, CA, US) to develop tolerized _P. putida_ strains with enhanced growth and biofuel production in mock hydrolysate culture media. Results deriving from this work were submitted for publication and are available as a preprint in [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.10.29.620962v1).
+During my PhD, I collaborated with Dr. Aindrila Mukhopadhyay at JBEI (Emeryville, CA, US) to develop _P. putida_ strains with improved growth and biofuel production in mock hydrolysate culture media. Results deriving from this work were submitted for publication and are available as a preprint on [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.10.29.620962v1).
 
 ### Graduate Student
 
@@ -90,7 +90,7 @@ In my PhD project, we intend to develop and characterize new tools for better ma
 
 -   I have designed and validated the pVANT family of vectors, based on the Standard European Vector Architecture (SEVA). This work has been [published](https://doi.org/10.1021/acssynbio.3c00098) in ACS Synthetic Biology in 2023.
 
--   I curated a database of publicly available RNA-seq data of _P. putida_, which allowed our group to identify target genomic features that currently under further characterization.
+-   I curated a database of publicly available RNA-seq data of _P. putida_, which allowed our group to identify target genomic features, currently under further characterization.
 
 #### <span class="highlight">Project: Expanding acid resistance in bacteria using synthetic circuits </span>
 
@@ -98,11 +98,11 @@ During my Master's degree, I led a project in which we designed synthetic operon
 
 ### Other interests
 
-I am passionate about data visualization and tools that simplify biological data analysis and improve reproducibility. I am currently developing my first two R packages: [mipreadr](https://github.com/viana-guilherme/mipreadr), a package for the analysis of microbial growth data from microplate readers, and [fitnessbrowseR](https://github.com/viana-guilherme/fitnessbrowseR), a package for programmatic retrieval of data from the [Fitness Browser](https://fit.genomics.lbl.gov/cgi-bin/myFrontPage.cgi) database. I also recently began teaching myself JavaScript for the development of web apps using React and D3.
+I am passionate about data visualization and tools that simplify biological data analysis and improve reproducibility. I am currently developing my first two R packages: [mipreadr](https://github.com/viana-guilherme/mipreadr), a package for  processing data from microplate readers, and [fitnessbrowseR](https://github.com/viana-guilherme/fitnessbrowseR), a package for programmatic retrieval of data from the [Fitness Browser](https://fit.genomics.lbl.gov/cgi-bin/myFrontPage.cgi) database. I also recently began teaching myself JavaScript for developing web apps using React and D3.
 
 ## Selected publications
 <ul>
-<li>**Guilherme Marcelino Viana de Siqueira**, Aparajitha Srinivasan, Yan Chen, Jennifer W Gin, Christopher J Petzold, Taek Soon Lee, María-Eugenia Guazzaroni, Thomas Eng and Aindrila Mukhopadhyay. Alternate routes to acetate tolerance lead to varied isoprenol production from mixed carbon sources in Pseudomonas putida. bioRxiv Preprint (October 2024); <https://doi.org/10.1101/2024.10.29.620962>.</li>
+<li>**Guilherme Marcelino Viana de Siqueira**, Aparajitha Srinivasan, Yan Chen, Jennifer W Gin, Christopher J Petzold, Taek Soon Lee, María-Eugenia Guazzaroni, Thomas Eng and Aindrila Mukhopadhyay. 'Alternate routes to acetate tolerance lead to varied isoprenol production from mixed carbon sources in _Pseudomonas putida_'. bioRxiv Preprint (October 2024); <https://doi.org/10.1101/2024.10.29.620962>.</li>
 
 <li>**Guilherme Marcelino Viana de Siqueira** and María-Eugenia Guazzaroni. 'Host-Dependent Improvement of GFP Expression in _Pseudomonas Putida_ KT2440 Using Terminators of Metagenomic Origin'. ACS Synthetic Biology 12, no. 5 (May 2023): 1562--66. <https://doi.org/10.1021/acssynbio.3c00098>.</li>
 
